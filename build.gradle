@@ -19,6 +19,11 @@ repositories { mavenCentral() }
 
 
 dependencies {
+	compile('org.thymeleaf.extras:thymeleaf-extras-springsecurity3')
+	compile('org.springframework.boot:spring-boot-starter-security')
+	compile('com.fasterxml.jackson.dataformat:jackson-dataformat-xml')
+	compile('io.springfox:springfox-swagger2:2.1.2')
+	compile('io.springfox:springfox-swagger-ui:2.1.2')
 	compile('com.fasterxml.jackson.datatype:jackson-datatype-jsr310')
 	compile('org.springframework.boot:spring-boot-starter-social-twitter')
 	compile('org.webjars:materializecss:0.97.7')
